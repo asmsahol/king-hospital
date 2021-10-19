@@ -1,0 +1,11 @@
+/** @format */
+
+.menu {
+  margin-right: 18px !important;
+}
+.menu:hover {
+  color: blue !important;
+}
+.title {
+  color: #0dcaf0;
+}
