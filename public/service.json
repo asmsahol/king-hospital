@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Home and community care",
+    "description": "Healthcare is a broad term used to describe the various systems we as humans rely upon to help us maintain our personal health through the treatment (or prevention) of illness, injury, disease, and other physical or mental impairments.",
+    "img": "./images/post-1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Tertiary care",
+    "description": "Healthcare encompasses not only medical doctors and hospitals, but also dentistry, psychology, nursing, physical therapy, occupational therapy, and more.",
+    "img": "./images/post-2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Primary care involves the widest scope of health care",
+    "description": "Nationwide healthcare systems take many forms, and access to healthcare varies across countries, municipalities, and individuals and is primarily influenced by economic and social factors.",
+    "img": "./images/post-3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Secondary care",
+    "description": "Access to healthcare is seen as a fundamental human right by many people and governments. People who lack quality healthcare are often left with a poorer quality of life and lower life expectancy than people who enjoy a stable, accessible,",
+    "img": "./images/post-4.jpg"
+  },
+  {
+    "id": 5,
+    "name": "primary care physicians",
+    "description": "The quality of healthcare is determined by considering a wide range of factors including the care process (preventative care measures, safe care, coordinated care, and engagement and patient preferences), access (affordability and timeliness)",
+    "img": "./images/service-5.jpg"
+  },
+  {
+    "id": 6,
+    "name": " health education",
+    "description": "Identifying a top-notch healthcare system is fairly easy. Creating a definitive ranking of which countries have the best and worst healthcare systems is virtually impossible. The systems in play are incredibly complex, and there is significant debate abou",
+    "img": "./images/service-6.jpg"
+  }
+]

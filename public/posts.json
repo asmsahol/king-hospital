@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "All about appointments",
+    "description": "From referrals to insurance. Here's what you need to know to request your first appointment.",
+    "img": "./images/post-1.svg"
+  },
+  {
+    "id": 2,
+    "name": "Advice from other patients",
+    "description": "Get cost-saving tips, travel tricks and advice from former and current Mayo Clinic patients in our online community.",
+    "img": "./images/post-2.svg"
+  },
+  {
+    "id": 3,
+    "name": "Blood Donor Program — Minnesota",
+    "description": "Each whole blood donation might help save three lives.",
+    "img": "./images/post-3.svg"
+  },
+  {
+    "id": 4,
+    "name": "Learn more about Rochester, Minnesota",
+    "description": "Discover more about this Midwest destination at",
+    "img": "./images/post-4.webp"
+  },
+  {
+    "id": 5,
+    "name": "Experience Accreditation",
+    "description": "Find local Rochester businesses that are certified for exceptional customer service to Mayo Clinic patients and the community.",
+    "img": "./images/post-5.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Have questions? Concierge Services can help.",
+    "description": "Mayo Clinic Concierge Services offers free advice on travel to and from Rochester.",
+    "img": "./images/post-6.jpg"
+  }
+]

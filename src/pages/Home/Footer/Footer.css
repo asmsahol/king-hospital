@@ -1,0 +1,10 @@
+/** @format */
+
+.footer {
+  background-color: rgb(126, 123, 123);
+  height: 100px;
+  border-top: 5px solid #cc3300;
+}
+.footer-text {
+  padding-top: 35px;
+}

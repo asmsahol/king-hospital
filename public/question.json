@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "How will COVID-19 affect my appointment?",
+    "description": "We’ve added new precautions to minimize the risk of COVID-19 transmission. You can focus on getting the answers you seek, knowing that we're committed to keeping you safe.",
+    "img": "./images/questions-1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Am I covered?",
+    "description": "Mayo Clinic providers and hospitals have established contracts with a long list of insurance plans. About 50 percent of the adult U.S. population is covered. Check now to see if you're one of them.",
+    "img": "./images/questions-2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "How much will care cost?",
+    "description": "When you have health challenges, calculating costs can be overwhelming. As a non-profit academic medical center, Mayo Clinic is committed to transparency about fees and services. Check our cost estimator for prices and payments at our facilities.",
+    "img": "./images/questions-3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Do I need a referral",
+    "description": "Mayo Clinic generally doesn't require a doctor's referral. But your insurance might. It's a good idea to check with your insurance company. If you need a referral, we can help you through this process.",
+    "img": "./images/questions-4.jpg"
+  }
+]

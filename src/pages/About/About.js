@@ -8,43 +8,24 @@ const About = () => {
       <Row>
         <Col className='text-start m-5'>
           <p>
-            Madrasah is referred to institution specially designed for Islamic
-            education and culture. Madrasah education commenced from the time of
-            Hazrat Muhammad (Sm). He set up Darul Arqam at the foot of Makkah's
-            Safa hill, Suffa Residential Madrasah and Darul Qurrah Madrasah on
-            the north-eastern side of Masjid-e-Nababi after performing Hizrat
-            (emigration to Medina). Besides, the Masjid-e-Nababi (622 AD) and 9
-            other mosques of Medina were also used as education centres. Among
-            the Caliphs, Hazrat Omar (R) and Hazrat Ali (R) set up two large
-            madrasahs at Basra and Kufa. During the Umayyad rule, large mosques
-            were used as Madrasahs. The Abbasid rulers used to patronise
-            Madrasah education. Apart from constructing Mosque-based madrasahs,
-            they also built separate madrasahs. Primary education at mosques for
-            children was compulsory at that time.
+            Mayo Clinic generally doesn't require a doctor's referral. But your
+            insurance might. It's a good idea to check with your insurance
+            company about coverage requirements. If you need a referral, we can
+            help you with this process. Even if a doctor's referral isn't
+            required, getting one can help Mayo Clinic better determine what
+            care you need.
           </p>
           <p>
-            Madrasah education was introduced in Bengal during the Sultani era
-            (1210-1576). Many madrasahs were set up in Bengal during that
-            period. Among these, the Madrasah of Moulana Takiuddin Arabi at
-            Mohisantosh is the oldest. In 1248, Sultan Nasiruddin, Badaruddin
-            Ishaque, Minhazuddin, Nizamuddin Damiski and Shamsuddin Khawarizmi
-            prepared a curriculum for madrasah education, which remained
-            effective for one century.
+            Appointment specialists are specially trained to match you with the
+            provider or group that's the best fit for your diagnosis and medical
+            history. But you may wonder if you can request a specialist that
+            you've read about or who's been recommended by a friend or
+            colleague.
           </p>
           <p>
-            Moulana Abu Tawama set up a madrash at Sonargaon in 1278, and it was
-            the biggest madrasah in the then Bengal. Sultan alauddin husain shah
-            (1494-1519) established many madrasahs in Gaur and Maldaha. The
-            madrasah curriculum during the Sultani era included Arabic, Nahu,
-            Saraf, Balagat, Manatik, Kalam, Tasauf, literature, Fiqah and
-            Philosophy.
-          </p>
-          <p>
-            The scope of madrasah education was expanded during the Mughal era
-            by including various branches of knowledge and science. At that
-            time, Astronomy, Mathematics, Geography, Accounting, Agriculture,
-            Public Administration, Biology, Zoology, Fine Arts etc were
-            incorporated into madrasah education in phases.
+            We won't grant requests for care team members based on race,
+            religion, ethnicity, sex, sexual orientation, gender identity,
+            language, disability status, age or any other personal attribute.
           </p>
         </Col>
       </Row>

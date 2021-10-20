@@ -1,0 +1,30 @@
+/** @format */
+
+.services {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 40px;
+  margin-bottom: 0;
+}
+
+.service {
+  margin-bottom: 40px;
+  text-decoration: none;
+}
+.button {
+  text-decoration: none;
+  color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .services {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 40px;
+    margin-bottom: 0;
+  }
+  .mobile-div {
+    display: flex;
+  }
+}

@@ -4,8 +4,26 @@
   margin-right: 18px !important;
 }
 .menu:hover {
-  color: blue !important;
+  color: white !important;
+  padding: 10px;
+  background-color: #cc3300;
+}
+.logout {
+  color: white !important;
+  padding: 10px;
+  background-color: #cc3300;
+  border-radius: 5px;
+}
+.place-order {
+  color: #cc3300 !important;
+  padding: 10px;
+  background-color: #cc3300;
+  border-radius: 5px;
 }
 .title {
-  color: #0dcaf0;
+  color: #cc3300;
+  font-weight: bold;
+}
+.my-nav {
+  background-color: tomato !important;
 }

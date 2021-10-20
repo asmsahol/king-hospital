@@ -4,22 +4,22 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { useEffect, useState } from "react";
 import AuthProvider from "./Context/AuthProvider";
-import Services from "./pages/Home/Services/Services";
 import Home from "./pages/Home/Home";
 import Header from "./pages/Home/Header/Header";
 import About from "./pages/About/About";
-import ServiceDetail from "./pages/Home/Services/ServiceDetails";
 import SignUp from "./pages/Home/SignUp/SignUp";
 import PrivateRoute from "./pages/PrivateRoute/PrivateRoute";
 import PlaceOrder from "./pages/PlaceOrder/PlaceOrder";
 import Login from "./pages/Home/Login/Login";
 import NoFound from "./pages/Home/NotFount/NotFound";
 import Footer from "./pages/Home/Footer/Footer";
+import Services from "./pages/Services/Services";
+import ServiceDetail from "./pages/Services/ServiceDetails";
 
 function App() {
   const [services, setServices] = useState([]);
   useEffect(() => {
-    fetch("https://asmsahol.github.io/myData/services.json")
+    fetch("./posts.json")
       .then(res => res.json())
       .then(data => setServices(data));
   }, []);
@@ -30,18 +30,10 @@ function App() {
           <Header></Header>
           <Switch>
             <Route exact path='/'>
-              <div className='services'>
-                {services.slice(0, 4).map(service => (
-                  <Home service={service} key={service.id}></Home>
-                ))}
-              </div>
+              <Home></Home>
             </Route>
             <Route path='/home'>
-              <div className='services'>
-                {services.slice(0, 4).map(service => (
-                  <Home service={service} key={service.id}></Home>
-                ))}
-              </div>
+              <Home></Home>
             </Route>
             <Route path='/about'>
               <About></About>
@@ -53,9 +45,9 @@ function App() {
                 ))}
               </div>
             </Route>
-            <Route path='/service/:serviceId'>
+            <PrivateRoute path='/service/:serviceId'>
               <ServiceDetail></ServiceDetail>
-            </Route>
+            </PrivateRoute>
             <Route path='/departments'></Route>
             <Route path='/department/:departmentId'></Route>
             <Route path='/signup'>
@@ -66,6 +58,9 @@ function App() {
             </PrivateRoute>
             <Route path='/login'>
               <Login></Login>
+            </Route>
+            <Route>
+              <NoFound></NoFound>
             </Route>
             <Route>
               <NoFound></NoFound>

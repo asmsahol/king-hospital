@@ -1,0 +1,15 @@
+/** @format */
+
+.log_in_google {
+  background-color: #cc3300;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+}
+
+.log_in {
+  background-color: #d81781;
+  padding: 5px 15px;
+  border-radius: 5px;
+  color: white;
+}
